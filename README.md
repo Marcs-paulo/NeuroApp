@@ -10,14 +10,13 @@ O objetivo é fornecer uma ferramenta robusta para desenvolvedores e operadores 
 
 Assista a uma explicação e demonstração completa do aplicativo em funcionamento:
 
-[Link para o Vídeo Explicativo (Google Drive)](#https://drive.google.com/file/d/1nU_DRxeS7qWa7miMxHkyYkk1VPYVPm7S/view?usp=sharing)
+[Link para o Vídeo Explicativo (Google Drive)](https://drive.google.com/file/d/1nU_DRxeS7qWa7miMxHkyYkk1VPYVPm7S/view?usp=sharing)
 
 ## 📄 Documentação Completa
 
 Para uma análise aprofundada da arquitetura, módulos, diagramas e referências do projeto, consulte a documentação oficial em PDF:
 
-[Baixar Documentação NeuroApp.pdf](Documentacao_NeuroApp.pdf)
-
+[Baixar Documentação NeuroApp.pdf](https://raw.githubusercontent.com/Marcs-paulo/NeuroApp/main/Documentacao_NeuroApp.pdf)
 
 ## ✨ Principais Funcionalidades
 
