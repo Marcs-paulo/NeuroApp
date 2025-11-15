@@ -10,7 +10,7 @@ O objetivo é fornecer uma ferramenta robusta para desenvolvedores e operadores 
 
 Assista a uma explicação e demonstração completa do aplicativo em funcionamento:
 
-[Link para o Vídeo Explicativo (Google Drive)](#)
+[Link para o Vídeo Explicativo (Google Drive)](#https://drive.google.com/file/d/1nU_DRxeS7qWa7miMxHkyYkk1VPYVPm7S/view?usp=sharing)
 
 ## 📄 Documentação Completa
 
