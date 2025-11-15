@@ -1,97 +1,36 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# NeuroApp: Interface de Controle para Robô Autônomo
 
-# Getting Started
+## 📖 Sobre o Projeto
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+O **NeuroApp** é uma aplicação móvel multiplataforma, desenvolvida em **React Native**, que serve como interface principal para o controle, monitoramento e telemetria de um robô autônomo baseado em **ESP32**.
 
-## Step 1: Start Metro
+O objetivo é fornecer uma ferramenta robusta para desenvolvedores e operadores realizarem testes, validação de hardware/firmware e acompanhamento de dados em tempo real. A aplicação utiliza **Bluetooth Low Energy (BLE)** para comunicação local e foi desenvolvida no âmbito do curso de **Engenharia de Computação da Universidade Federal do Rio Grande do Norte (UFRN)**.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## 🎥 Vídeo de Demonstração
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+Assista a uma explicação e demonstração completa do aplicativo em funcionamento:
 
-```sh
-# Using npm
-npm start
+[Link para o Vídeo Explicativo (Google Drive)](#)
 
-# OR using Yarn
-yarn start
-```
+## 📄 Documentação Completa
 
-## Step 2: Build and run your app
+Para uma análise aprofundada da arquitetura, módulos, diagramas e referências do projeto, consulte a documentação oficial em PDF:
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+[Baixar Documentação NeuroApp.pdf](Documentacao_NeuroApp.pdf)
 
-### Android
 
-```sh
-# Using npm
-npm run android
+## ✨ Principais Funcionalidades
 
-# OR using Yarn
-yarn android
-```
+- **Painel de Controle (Dashboard)**: Monitoramento em tempo real do status da conexão, telemetria (encoders, odometria, GPS), logs do sistema e envio de comandos (Start, Reset, Calibração).  
+- **Controle Manual**: Tela dedicada com dois joysticks virtuais (usando `react-native-gesture-handler` e `reanimated`) para controle preciso de velocidade linear e rotação angular.  
+- **Conectividade BLE**: Gerenciamento robusto de conexão Bluetooth Low Energy para comunicação estável com o hardware (ESP32).  
+- **Interface Modular**: Layout organizado em "cartões" independentes para fácil manutenção e visualização dos dados.
 
-### iOS
+## 🛠️ Tecnologias Utilizadas
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- [React Native](https://reactnative.dev/)  
+- [Bluetooth Low Energy (react-native-ble-plx)](https://github.com/dotintent/react-native-ble-plx)  
+- [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/docs/)  
+- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)  
+- [React Native Orientation Locker](https://github.com/wonday/react-native-orientation-locker)  
+- [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
